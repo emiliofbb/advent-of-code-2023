@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"bufio"
@@ -6,8 +6,8 @@ import (
 	"os"
 )
 
-func main() {
-	file, err := os.Open("./day1-input.txt")
+func Resolve_day1() {
+	file, err := os.Open("./day1/input.txt")
 	if err != nil {
 		panic("Error while opening input file.")
 	}
