@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/emiliofbb/advent-of-code-2023/day2"
+	day2_2 "github.com/emiliofbb/advent-of-code-2023/day2-2"
 )
 
 func main() {
-	day2.ResolveDay2()
+	day2_2.ResolveDay2_2()
 }
